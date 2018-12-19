@@ -1,0 +1,42 @@
+div{
+  border:2px solid red;
+}
+div>p{
+  background-color: gray;
+  display:inline;
+}
+div>p:first-child{
+text-align: center;
+text-transform: uppercase;
+color:white;
+ font:bold 30px Georgia, serif ;
+ background-color: black !important;
+display:block !important;
+}
+div li{
+  font-size: 14px;
+  color:gray;
+  font-family: cursive;
+
+}
+[dulce]{
+  font-family:Verdana,"Trebuchet MS",Arial, Helvetica, Georgia, Geneva, sans-serif;
+  color:pink;
+
+}
+[dulce*="sugar"]{
+  color:#fabada !important;
+}
+[salado]{
+  font-family:Verdana,"Trebuchet MS",Arial, Helvetica, Georgia, Geneva, sans-serif;
+  color:green;
+
+}
+[salado^="e"]{
+  color:#006400 !important;
+}
+[salado$="ento"]{
+  color:#aeb213 !important;
+}ol{
+  background: black;
+}
